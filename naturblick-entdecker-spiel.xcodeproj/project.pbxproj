@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DBBA01E930AC9AB300985EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBA01D330AC9AAE00985EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBA01DA30AC9AAE00985EEE;
+			remoteInfo = "naturblick-entdecker-spiel";
+		};
+		DBBA01F330AC9AB300985EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBA01D330AC9AAE00985EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBA01DA30AC9AAE00985EEE;
+			remoteInfo = "naturblick-entdecker-spiel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBBA01DB30AC9AAE00985EEE /* naturblick-entdecker-spiel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "naturblick-entdecker-spiel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA01E830AC9AB300985EEE /* naturblick-entdecker-spielTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "naturblick-entdecker-spielTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA01F230AC9AB300985EEE /* naturblick-entdecker-spielUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "naturblick-entdecker-spielUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DBBA01DD30AC9AAE00985EEE /* naturblick-entdecker-spiel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "naturblick-entdecker-spiel";
+			sourceTree = "<group>";
+		};
+		DBBA01EB30AC9AB300985EEE /* naturblick-entdecker-spielTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "naturblick-entdecker-spielTests";
+			sourceTree = "<group>";
+		};
+		DBBA01F530AC9AB300985EEE /* naturblick-entdecker-spielUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "naturblick-entdecker-spielUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBA01D830AC9AAE00985EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA01E530AC9AB300985EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA01EF30AC9AB300985EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBBA01D230AC9AAE00985EEE = {
+			isa = PBXGroup;
+			children = (
+				DBBA01DD30AC9AAE00985EEE /* naturblick-entdecker-spiel */,
+				DBBA01EB30AC9AB300985EEE /* naturblick-entdecker-spielTests */,
+				DBBA01F530AC9AB300985EEE /* naturblick-entdecker-spielUITests */,
+				DBBA01DC30AC9AAE00985EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBBA01DC30AC9AAE00985EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA01DB30AC9AAE00985EEE /* naturblick-entdecker-spiel.app */,
+				DBBA01E830AC9AB300985EEE /* naturblick-entdecker-spielTests.xctest */,
+				DBBA01F230AC9AB300985EEE /* naturblick-entdecker-spielUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBBA01DA30AC9AAE00985EEE /* naturblick-entdecker-spiel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA01FC30AC9AB300985EEE /* Build configuration list for PBXNativeTarget "naturblick-entdecker-spiel" */;
+			buildPhases = (
+				DBBA01D730AC9AAE00985EEE /* Sources */,
+				DBBA01D830AC9AAE00985EEE /* Frameworks */,
+				DBBA01D930AC9AAE00985EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DBBA01DD30AC9AAE00985EEE /* naturblick-entdecker-spiel */,
+			);
+			name = "naturblick-entdecker-spiel";
+			packageProductDependencies = (
+			);
+			productName = "naturblick-entdecker-spiel";
+			productReference = DBBA01DB30AC9AAE00985EEE /* naturblick-entdecker-spiel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBBA01E730AC9AB300985EEE /* naturblick-entdecker-spielTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA01FF30AC9AB300985EEE /* Build configuration list for PBXNativeTarget "naturblick-entdecker-spielTests" */;
+			buildPhases = (
+				DBBA01E430AC9AB300985EEE /* Sources */,
+				DBBA01E530AC9AB300985EEE /* Frameworks */,
+				DBBA01E630AC9AB300985EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBA01EA30AC9AB300985EEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBBA01EB30AC9AB300985EEE /* naturblick-entdecker-spielTests */,
+			);
+			name = "naturblick-entdecker-spielTests";
+			packageProductDependencies = (
+			);
+			productName = "naturblick-entdecker-spielTests";
+			productReference = DBBA01E830AC9AB300985EEE /* naturblick-entdecker-spielTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBBA01F130AC9AB300985EEE /* naturblick-entdecker-spielUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA020230AC9AB300985EEE /* Build configuration list for PBXNativeTarget "naturblick-entdecker-spielUITests" */;
+			buildPhases = (
+				DBBA01EE30AC9AB300985EEE /* Sources */,
+				DBBA01EF30AC9AB300985EEE /* Frameworks */,
+				DBBA01F030AC9AB300985EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBA01F430AC9AB300985EEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBBA01F530AC9AB300985EEE /* naturblick-entdecker-spielUITests */,
+			);
+			name = "naturblick-entdecker-spielUITests";
+			packageProductDependencies = (
+			);
+			productName = "naturblick-entdecker-spielUITests";
+			productReference = DBBA01F230AC9AB300985EEE /* naturblick-entdecker-spielUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBBA01D330AC9AAE00985EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					DBBA01DA30AC9AAE00985EEE = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					DBBA01E730AC9AB300985EEE = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = DBBA01DA30AC9AAE00985EEE;
+					};
+					DBBA01F130AC9AB300985EEE = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = DBBA01DA30AC9AAE00985EEE;
+					};
+				};
+			};
+			buildConfigurationList = DBBA01D630AC9AAE00985EEE /* Build configuration list for PBXProject "naturblick-entdecker-spiel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBBA01D230AC9AAE00985EEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DBBA01DC30AC9AAE00985EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBA01DA30AC9AAE00985EEE /* naturblick-entdecker-spiel */,
+				DBBA01E730AC9AB300985EEE /* naturblick-entdecker-spielTests */,
+				DBBA01F130AC9AB300985EEE /* naturblick-entdecker-spielUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBA01D930AC9AAE00985EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA01E630AC9AB300985EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA01F030AC9AB300985EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBA01D730AC9AAE00985EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA01E430AC9AB300985EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA01EE30AC9AB300985EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBBA01EA30AC9AB300985EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBA01DA30AC9AAE00985EEE /* naturblick-entdecker-spiel */;
+			targetProxy = DBBA01E930AC9AB300985EEE /* PBXContainerItemProxy */;
+		};
+		DBBA01F430AC9AB300985EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBA01DA30AC9AAE00985EEE /* naturblick-entdecker-spiel */;
+			targetProxy = DBBA01F330AC9AB300985EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBBA01FA30AC9AB300985EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBBA01FB30AC9AB300985EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBBA01FD30AC9AB300985EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mfn.berlin.naturblick-entdecker-spiel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBA01FE30AC9AB300985EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mfn.berlin.naturblick-entdecker-spiel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBBA020030AC9AB300985EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mfn.berlin.naturblick-entdecker-spielTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naturblick-entdecker-spiel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/naturblick-entdecker-spiel";
+			};
+			name = Debug;
+		};
+		DBBA020130AC9AB300985EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mfn.berlin.naturblick-entdecker-spielTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naturblick-entdecker-spiel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/naturblick-entdecker-spiel";
+			};
+			name = Release;
+		};
+		DBBA020330AC9AB300985EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mfn.berlin.naturblick-entdecker-spielUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "naturblick-entdecker-spiel";
+			};
+			name = Debug;
+		};
+		DBBA020430AC9AB300985EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD2URSF64E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mfn.berlin.naturblick-entdecker-spielUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "naturblick-entdecker-spiel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBA01D630AC9AAE00985EEE /* Build configuration list for PBXProject "naturblick-entdecker-spiel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA01FA30AC9AB300985EEE /* Debug */,
+				DBBA01FB30AC9AB300985EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA01FC30AC9AB300985EEE /* Build configuration list for PBXNativeTarget "naturblick-entdecker-spiel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA01FD30AC9AB300985EEE /* Debug */,
+				DBBA01FE30AC9AB300985EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA01FF30AC9AB300985EEE /* Build configuration list for PBXNativeTarget "naturblick-entdecker-spielTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA020030AC9AB300985EEE /* Debug */,
+				DBBA020130AC9AB300985EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA020230AC9AB300985EEE /* Build configuration list for PBXNativeTarget "naturblick-entdecker-spielUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA020330AC9AB300985EEE /* Debug */,
+				DBBA020430AC9AB300985EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBBA01D330AC9AAE00985EEE /* Project object */;
+}
