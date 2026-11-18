@@ -1,6 +1,5 @@
 import Foundation
 import SwiftUI
-import UIKit
 
 nonisolated let audioSourceURL = "https://suche.tierstimmenarchiv.de"
 
@@ -132,7 +131,7 @@ nonisolated struct SpeciesImage: Hashable, Sendable {
         Copyright(license: license, author: author, url: url, authorURL: authorURL)
     }
 
-    var uiImage: UIImage? { BundledImage.load(file) }
+    var image: Image { Image(file) }
 }
 
 nonisolated struct AudioAsset: Hashable, Sendable {
@@ -194,7 +193,7 @@ nonisolated struct Species: Identifiable, Hashable, Sendable {
 
     var formattedDescription: [AttributedString] { description.map(AttributedString.bold) }
 
-    var squareUIImage: UIImage? { BundledImage.load(squareImage) }
+    var thumbnail: Image { Image(squareImage) }
 }
 
 nonisolated extension AttributedString {
@@ -208,28 +207,5 @@ nonisolated extension AttributedString {
             result += piece
         }
         return result
-    }
-}
-
-nonisolated enum BundledImage {
-    static let extensions = ["webp", "jpg", "jpeg", "png"]
-
-    static func load(_ name: String) -> UIImage? {
-        for ext in extensions {
-            if let image = UIImage(named: "\(name).\(ext)") {
-                return image
-            }
-        }
-        return nil
-    }
-}
-
-extension Image {
-    init(bundled name: String) {
-        if let image = BundledImage.load(name) {
-            self.init(uiImage: image)
-        } else {
-            self.init(systemName: "photo")
-        }
     }
 }

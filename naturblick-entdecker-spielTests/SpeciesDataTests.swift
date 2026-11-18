@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 import XCTest
 @testable import naturblick_entdecker_spiel
 
@@ -10,9 +11,9 @@ final class SpeciesDataTests: XCTestCase {
 
     func testAllImagesLoad() {
         for species in speciesList {
-            XCTAssertNotNil(species.squareUIImage, "\(species.name): \(species.squareImage) fehlt")
+            XCTAssertNotNil(UIImage(named: species.squareImage), "\(species.name): \(species.squareImage) fehlt")
             for image in species.images {
-                XCTAssertNotNil(image.uiImage, "\(species.name): \(image.file) fehlt")
+                XCTAssertNotNil(UIImage(named: image.file), "\(species.name): \(image.file) fehlt")
             }
         }
     }

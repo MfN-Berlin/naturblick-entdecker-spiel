@@ -29,9 +29,8 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 ROOT = Path(__file__).resolve().parent.parent
 APP_DIR = ROOT / "naturblick-entdecker-spiel"
 SPECIES_LIST = APP_DIR / "Data/SpeciesList.swift"
-IMAGES_DIR = APP_DIR / "Resources/Images"
+IMAGES_DIR = APP_DIR / "Assets.xcassets/Species"
 AUDIO_DIR = APP_DIR / "Resources/Audio"
-IMAGE_EXTENSIONS = ("webp", "jpg", "jpeg", "png")
 
 # Namen wie in der Tabelle/Android (Großbuchstaben) -> Swift-Enum-Fall
 GENDERS = {"MASCULINE": "der", "FEMININE": "die", "NEUTRUM": "das"}
@@ -570,7 +569,7 @@ def read_rows(wb, sheet, columns, report):
 
 
 def image_exists(name):
-    return any((IMAGES_DIR / f"{name}.{ext}").exists() for ext in IMAGE_EXTENSIONS)
+    return (IMAGES_DIR / f"{name}.imageset" / "Contents.json").exists()
 
 
 def check_url(value, where, column, report, required=True, allow_mail=False):
